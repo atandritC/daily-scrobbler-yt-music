@@ -1,0 +1,10 @@
+[project]
+name = "daily-scrobbler"
+version = "0.1.0"
+description = "Scrobbles my music in daily batches from YT Music"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pylast>=7.0.2",
+    "ytmusicapi>=1.12.1",
+]
